@@ -88,7 +88,7 @@ while True:
     elif "c" in primera_entrada:
         usuario = str(input("Ingrese usuario: "))
         nombre = str(input("Ingrese chucheria: "))
-        num = input("Ingrese cantidad: ")
+        num = int(input("Ingrese cantidad: "))
 
         try:
             with open("usuarios.json", "r+") as file:
